@@ -1,0 +1,143 @@
+/* /*
+Theme Name: themeSachin
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Sachin Chandra Das
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. 
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images.
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sochin
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./asstes/images/download.gif) center;
+}
+.cont{
+    width: 996px;
+    margin: 0 auto;
+}
+.header{
+    background-color: purple;
+    line-height: 30px;
+    height: 30px;
+    color: white;
+}
+.header_right{
+    display: flex;
+    justify-content: end;
+}
+.header_right a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.header_right p{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.logo_left{
+     line-height: 110px;
+}
+.logo_1{
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.logo_2{
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.logo_search input{
+    width: 75%;
+    margin-top: 30px;
+}
+.navbar ul li a{
+    border-right: 1px solid white;
+}
+.navbar ul{
+    background-color: #ddd;
+}
+.banner{
+    border: 1px solid red;
+    padding: 10px;
+}
+.tab_1 a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+btn button a{
+    text-decoration: none;
+}
+.news ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    border-bottom: 1px solid green;
+    margin: 5px;
+
+}
+.news ul li{
+    list-style: none;
+}
+.hero_right h1{
+color: purple;
+font-size: 13px;
+}
+.hero_right select{
+    width: 75%;
+}
+.sideber_video h2{
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.sideber_video h3{
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.news h1{
+    color: purple;
+    font-size: 20px;
+}
+.fb_1 ul li a{
+    font-size: 13px;
+}
+.fb_1 p{
+    font-size: 13px;
+
+}
+.fb_2 p{
+    font-size: 13px;
+}
+.hb img{
+    margin: 1px;
+}
+.menu-item{
+    padding-right: 20px;
+    
+}
+.menu-item a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.carousel-inner img{
+    width: 100% !important;
+    height: 300px !important;
+    display: block;
+}
